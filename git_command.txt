@@ -123,6 +123,62 @@ On branch master
 nothing to commit, working tree clean
 
 praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+$ git status
+On branch master
+nothing to commit, working tree clean
+
+praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+$ git checkout -f
+
+praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+$ git log
+commit 868c9e91031089fad3e97f8f29a9f7f41973384e (HEAD -> master)
+Author: chetan <prajapatichetan237@gmail.com>
+Date:   Tue Aug 16 01:57:28 2022 +0530
+
+    Add more html
+
+commit 61e2c4125aa7272685ece5da9ab466645bedfd61
+Author: chetan <prajapatichetan237@gmail.com>
+Date:   Tue Aug 16 01:51:05 2022 +0530
+
+    Add more html
+
+commit b935ac3a309820c5d99b92142a6c2f4eebfeda62
+Author: chetan <prajapatichetan237@gmail.com>
+Date:   Tue Aug 16 01:41:58 2022 +0530
+
+    Initial commit
+
+praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+$ git log -p -1
+commit 868c9e91031089fad3e97f8f29a9f7f41973384e (HEAD -> master)
+Author: chetan <prajapatichetan237@gmail.com>
+Date:   Tue Aug 16 01:57:28 2022 +0530
+
+    Add more html
+
+diff --git a/git_command.txt b/git_command.txt
+index 092a801..0fdab1e 100644
+--- a/git_command.txt
++++ b/git_command.txt
+@@ -99,6 +99,32 @@ praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+ $ git add -A  // all file add
+
+ praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
++praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
++$ git status
++On branch master
++Changes to be committed:
++  (use "git restore --staged <file>..." to unstage)
++        new file:   about.html
++        new file:   contact.html
++        new file:   git_command.txt
++
+
+praja@LAPTOP-O9S013I5 MINGW64 /e/git&github (master)
+$
+
 
 
 
